@@ -4,11 +4,11 @@ services:
   webapp:
     image: webapp
     build:
-      context: ./src/WebApp
+      context: ./WebApp
       dockerfile: Dockerfile
 
   webapi:
     image: webapi
     build:
-      context: ./src/WebApi
+      context: ./WebApi
       dockerfile: Dockerfile
