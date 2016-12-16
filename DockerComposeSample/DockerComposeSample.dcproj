@@ -3,6 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Docker\Microsoft.VisualStudio.Docker.Compose.props" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>C9580D90-F16A-4B0B-B3AD-D7704A9D98F5</ProjectGuid>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|AnyCPU">
