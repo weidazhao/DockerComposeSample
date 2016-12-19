@@ -28,8 +28,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="WebApi\WebApi.csproj" />
-    <ProjectReference Include="WebApp\WebApp.csproj" />
+    <DockerServiceProject Include="WebApi\WebApi.csproj" />
+    <DockerServiceProject Include="WebApp\WebApp.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Docker\Microsoft.VisualStudio.Docker.Compose.targets" />
 </Project>
